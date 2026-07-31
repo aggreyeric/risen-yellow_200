@@ -9,6 +9,11 @@ export default defineConfig({
     port: 5173,
     host: true,
   },
+  preview: {
+    port: 5181,
+    host: true,
+    allowedHosts: true,
+  },
   optimizeDeps: {
     include: ["@creit.tech/stellar-wallets-kit", "@stellar/stellar-sdk"],
   },

@@ -17,6 +17,7 @@ Built for the **Stellar Frontend Challenge — Level 2 (Yellow Belt)**. This pro
 
 | Item | Value |
 | --- | --- |
+| **Web App** | **[risen-fund.sabiedu.online](https://risen-fund.sabiedu.online)** |
 | **Contract Address** | `CD76QS2APOWHXZ3E24R5GJIYGF2TUWVED36U3SMTQMAPIIH3AYHS2C46` |
 | **Explorer** | [stellar.expert](https://stellar.expert/explorer/testnet/contract/CD76QS2APOWHXZ3E24R5GJIYGF2TUWVED36U3SMTQMAPIIH3AYHS2C46) |
 | **Campaign Status** | 125 XLM raised of 1,000 XLM goal · 2 donors |
