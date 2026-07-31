@@ -13,6 +13,22 @@
 
 Built for the **Stellar Frontend Challenge — Level 2 (Yellow Belt)**. This project goes beyond a simple wallet: it deploys a **Soroban smart contract** that manages a crowdfunding campaign on-chain, and a React frontend that interacts with it in real time.
 
+## 🔗 Live Deployment (Stellar Testnet)
+
+| Item | Value |
+| --- | --- |
+| **Contract Address** | `CD76QS2APOWHXZ3E24R5GJIYGF2TUWVED36U3SMTQMAPIIH3AYHS2C46` |
+| **Explorer** | [stellar.expert](https://stellar.expert/explorer/testnet/contract/CD76QS2APOWHXZ3E24R5GJIYGF2TUWVED36U3SMTQMAPIIH3AYHS2C46) |
+| **Campaign Status** | 125 XLM raised of 1,000 XLM goal · 2 donors |
+
+## ▶️ Run Locally
+
+```bash
+cd frontend
+npm install
+npm run dev    # → http://localhost:5176
+```
+
 ## ✨ Features
 
 - 🔗 **Deployed Soroban contract** — a crowdfunding contract deployed on Stellar Testnet that tracks donations, totals, and donor count
@@ -97,10 +113,11 @@ Set `VITE_DEMO_MODE=true` in `frontend/.env.local` to run without a wallet. The 
 
 | # | State | Screenshot |
 | --- | --- | --- |
-| 1 | Campaign overview — progress, goal, donors | ![Campaign](frontend/screenshots/01-campaign-overview.png) |
-| 2 | Donation transaction — preparing & signing | ![Donate](frontend/screenshots/02-donation-transaction.png) |
-| 3 | Transaction confirmed — hash + explorer link | ![Confirmed](frontend/screenshots/03-tx-confirmed.png) |
-| 4 | Multiple transactions + live donation feed | ![Multi-tx](frontend/screenshots/04-multi-tx-live-feed.png) |
+| 1 | Live campaign overview — real on-chain data | ![Campaign](screenshots/01-live-campaign-overview.png) |
+| 2 | Donation form — amount selection | ![Donate](screenshots/02-donate-form.png) |
+| 3 | Transaction confirmed — hash + explorer link | ![Confirmed](screenshots/03-transaction-status.png) |
+| 4 | Live donation feed — real-time events | ![Feed](screenshots/04-donation-feed.png) |
+| 5 | Deployed contract on Stellar Expert | ![Explorer](screenshots/05-explorer-contract.png) |
 
 ## 📄 License
 

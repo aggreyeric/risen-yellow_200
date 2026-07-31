@@ -120,7 +120,7 @@ export function TransactionLog({
             {stroopsToXlm(
               txs
                 .filter((t) => t.status === "success")
-                .reduce((a, t) => a + (t.amount ?? 0), 0) * 10_000_000
+                .reduce((a, t) => a + (t.amount ?? 0), 0)
             )}{" "}
             XLM
           </span>
